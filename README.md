@@ -1,8 +1,8 @@
 # Mailchimp
 
-Вам необходимо взять исходники из файла репозитория js/core.min.js
+You need to take the sources from the repository file js/core.min.js
 
-Для инициализации формы, Вам необходимо вставить даный JS код.
+To initialize the form, you need to insert this JS code.
 
 	  /**
 	   * Global variables
@@ -205,27 +205,27 @@
 	  });
 
 
-Для подключения формы подписки к своему аккаунту MailChimp, вам необходимо создать список(или выбрать уже существующий) (1) и перейти в "Signup forms" раздел (2).
+To connect the subscription form to your MailChimp account, you need to create a list or select an existing one (see No. 1) and go to “Signup forms” section (No. 2).
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/mailchimp.png)
 
-Выбрать пункт "General forms".
+Select “General forms”.
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/mailchimp-2.png)
 
-Скопировать ссылку из поля "Signup form URL" и перейти по ней.
+Copy the link from “Signup form URL” field and enter it in the address field of your browser.
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/mailchimp-3.png)
 
-Вас перенаправит на другую страницу, с которой Вам нужно взять url:
+You will be redirected to another page, where you need to copy the URL:
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/mailchimp-4.png)
 
-В данную ссылку необходимо добавить /post после слова subscribe, чтобы ссылка приняла вид
+You need to add /post to this link after the word subscribe for the link to look like
 
 https://********.***.list-manage.com/subscribe/post?u=*******************&id=*********
 
-Данную ссылку необходимо вставить в атрибут action формы подписки, пример:
+Paste this link into action attribute of the subscription form, see the example below:
 
     <form class="mailchimp-mailform"
     data-form-output="form-output-global"
@@ -238,5 +238,5 @@ https://********.***.list-manage.com/subscribe/post?u=*******************&id=***
 	    <button class="button button-primary" type="submit">Subscribe</button>
 	  </form>
 
-    <!-- Елемент в который будет выводиться информация об ошибке-->
+    <!-- Element for for resault -->
     <div class="form-output-global"></div>
