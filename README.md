@@ -204,6 +204,7 @@ To initialize the form, you need to insert this JS code.
 	    }
 	  });
 
+## Mailchimp
 
 To connect the subscription form to your MailChimp account, you need to create a list or select an existing one (see No. 1) and go to “Signup forms” section (No. 2).
 
